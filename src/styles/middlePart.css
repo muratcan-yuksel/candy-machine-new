@@ -6,9 +6,9 @@
 
 .middleImgContainer {
   width: auto;
-  height: 100vh;
+  height: 90vh;
   background-color: black;
-  background-color: red;
+  background-color: rgb(255, 47, 203);
 
   margin: 0;
 }
@@ -19,4 +19,11 @@
   /* color: white; */
   font-size: 10em;
   border: 2px solid blue;
+}
+#middleText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
 }
