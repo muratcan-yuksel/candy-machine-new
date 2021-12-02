@@ -9,18 +9,16 @@ const Landing = () => {
         <Row>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div id="landingImageContainer">
-              <div id="landingImage">Image</div>
+              <div id="landingImage"> </div>
             </div>
           </Col>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div id="landingWelcomeGroup">
-              <div>
-                {/* Minting Section (Where the MINT button is):  */}
-                <h2>Thousands of loveable llamas from the </h2>
-                <h1>llamadramaclub</h1>
-                <h2>are joining the NFT world January 2022.</h2>
-                <Button variant="warning">MINT</Button>{" "}
-              </div>
+              {/* Minting Section (Where the MINT button is):  */}
+              <h2>Thousands of loveable llamas from the </h2>
+              <h1>llamadramaclub</h1>
+              <h2>are joining the NFT world January 2022.</h2>
+              <Button variant="warning">MINT</Button>{" "}
             </div>
           </Col>
         </Row>

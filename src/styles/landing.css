@@ -11,7 +11,6 @@
   width: 100%;
   height: 40em;
   background-color: black;
-  border: 2px solid red;
   margin-top: 5em;
 }
 #landingImage {
@@ -22,9 +21,11 @@
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  color: white;
+  margin-top: 2em;
 }
 #LandingFollows {
   width: 100%;
@@ -32,8 +33,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
-  /* margin-bottom: 10em; */
 }
 #followButtons {
   display: flex;
