@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import "../styles/faq.css";
 
 const FAQ = () => {
   return (
-    <div id="fawComponent">
+    <div id="faqComponent">
       <h1>FAQ</h1>
       <Container>
         <Row>
