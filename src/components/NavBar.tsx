@@ -1,16 +1,24 @@
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
-import Offcanvas from "react-bootstrap/Offcanvas";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import Offcanvas from "react-bootstrap/Offcanvas";
+import "../styles/navbar.css";
 const NavBar = () => {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={handleShow}
+          />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
+            {/* <Nav className="me-auto">
               <Nav.Link href="#home">ROADMAP</Nav.Link>
               <Nav.Link href="#link">CREATOR</Nav.Link>
               <Nav.Link href="#link">ABOUT</Nav.Link>
@@ -18,7 +26,17 @@ const NavBar = () => {
               <Nav.Link href="#link">YOUTUBE</Nav.Link>
               <Nav.Link href="#link">TWITTER</Nav.Link>
               <Button variant="warning">Warning</Button>{" "}
-            </Nav>
+            </Nav> */}
+
+            <Offcanvas show={show} onHide={handleClose}>
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+              </Offcanvas.Header>
+              <Offcanvas.Body>
+                Some text as placeholder. In real life you can have the elements
+                you have chosen. Like, text, images, lists, etc.
+              </Offcanvas.Body>
+            </Offcanvas>
           </Navbar.Collapse>
         </Container>
       </Navbar>
