@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Examples from "./components/Examples";
+import MiddlePart from "./components/MiddlePart";
 import "./styles/app.css";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Landing />
       <About />
       <Examples />
+      <MiddlePart />
     </div>
   );
 };

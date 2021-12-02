@@ -29,7 +29,7 @@ const Examples = () => {
           </div>
         </Col>
       </Row>{" "}
-      <Row>
+      {/* <Row>
         <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
           <div className="ExampleImageContainer">
             <div className="ExampleImage"></div>
@@ -40,7 +40,7 @@ const Examples = () => {
             <div className="ExampleImage"></div>
           </div>
         </Col>
-      </Row>
+      </Row> */}
     </div>
   );
 };
