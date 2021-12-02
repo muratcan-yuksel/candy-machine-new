@@ -9,6 +9,7 @@ import Roadmap from "./components/Roadmap";
 import FillerImages from "./components/FillerImages";
 import FAQ from "./components/FAQ";
 import Creator from "./components/Creator";
+import Signup from "./components/Signup";
 import "./styles/app.css";
 
 const App = () => {
@@ -24,6 +25,7 @@ const App = () => {
       <FillerImages />
       <FAQ />
       <Creator />
+      <Signup />
     </div>
   );
 };
