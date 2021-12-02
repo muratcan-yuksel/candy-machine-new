@@ -6,6 +6,7 @@ import About from "./components/About";
 import Examples from "./components/Examples";
 import MiddlePart from "./components/MiddlePart";
 import Roadmap from "./components/Roadmap";
+import FillerImages from "./components/FillerImages";
 import "./styles/app.css";
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
       <MiddlePart />
       <Examples />
       <Roadmap />
+      <FillerImages />
     </div>
   );
 };
