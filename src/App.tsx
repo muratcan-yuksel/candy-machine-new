@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Examples from "./components/Examples";
 import MiddlePart from "./components/MiddlePart";
+import Roadmap from "./components/Roadmap";
 import "./styles/app.css";
 
 const App = () => {
@@ -15,6 +16,8 @@ const App = () => {
       <About />
       <Examples />
       <MiddlePart />
+      <Examples />
+      <Roadmap />
     </div>
   );
 };
