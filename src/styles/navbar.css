@@ -2,7 +2,13 @@
   height: 10em;
   background-color: #ff006a !important;
   margin-bottom: 5em;
+  width: 100vw;
+  /* padding: 0 !important; */
 }
 #canvas {
   background-color: #ff006a !important;
+}
+.navLink {
+  color: white;
+  /* text-decoration: none; */
 }
