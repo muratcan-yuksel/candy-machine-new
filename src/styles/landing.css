@@ -1,0 +1,17 @@
+#landingImageContainer {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+}
+#landingImage {
+  color: white;
+  font-size: 10em;
+}
+#landingWelcomeGroup {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+}
