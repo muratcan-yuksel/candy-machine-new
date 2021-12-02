@@ -18,23 +18,20 @@ const NavBar = () => {
             onClick={handleShow}
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            {/* <Nav className="me-auto">
-              <Nav.Link href="#home">ROADMAP</Nav.Link>
-              <Nav.Link href="#link">CREATOR</Nav.Link>
-              <Nav.Link href="#link">ABOUT</Nav.Link>
-              <Nav.Link href="#link">FUZZIES LOGO</Nav.Link>
-              <Nav.Link href="#link">YOUTUBE</Nav.Link>
-              <Nav.Link href="#link">TWITTER</Nav.Link>
-              <Button variant="warning">Warning</Button>{" "}
-            </Nav> */}
-
-            <Offcanvas show={show} onHide={handleClose}>
+            <Offcanvas id="canvas" show={show} onHide={handleClose}>
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title>Offcanvas</Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
-                Some text as placeholder. In real life you can have the elements
-                you have chosen. Like, text, images, lists, etc.
+                <Nav className="me-auto">
+                  <Nav.Link href="#home">ROADMAP</Nav.Link>
+                  <Nav.Link href="#link">CREATOR</Nav.Link>
+                  <Nav.Link href="#link">ABOUT</Nav.Link>
+                  <Nav.Link href="#link">FUZZIES LOGO</Nav.Link>
+                  <Nav.Link href="#link">YOUTUBE</Nav.Link>
+                  <Nav.Link href="#link">TWITTER</Nav.Link>
+                  <Button variant="warning">Warning</Button>{" "}
+                </Nav>
               </Offcanvas.Body>
             </Offcanvas>
           </Navbar.Collapse>

@@ -1,5 +1,8 @@
 #navbarDiv {
   height: 10em;
-  background-color: #5cdb95 !important;
+  background-color: #ff006a !important;
   margin-bottom: 5em;
+}
+#canvas {
+  background-color: #ff006a !important;
 }
