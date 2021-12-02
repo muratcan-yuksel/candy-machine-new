@@ -26,6 +26,7 @@ const App = () => {
       <FAQ />
       <Creator />
       <Signup />
+      <FillerImages />
     </div>
   );
 };
