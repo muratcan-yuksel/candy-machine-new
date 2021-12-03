@@ -25,7 +25,7 @@ const NavBar = () => {
       {isTabletOrMobile && (
         <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
           <Container fluid>
-            <Navbar.Brand href="#home" id="navbarTitle">
+            <Navbar.Brand href="#landingPage" id="navbarTitle">
               llamadramaclub
             </Navbar.Brand>
             <Navbar.Toggle
@@ -40,9 +40,9 @@ const NavBar = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="me-auto">
-                    <Nav.Link href="#home">ROADMAP</Nav.Link>
-                    <Nav.Link href="#link">CREATOR</Nav.Link>
-                    <Nav.Link href="#link">ABOUT</Nav.Link>
+                    <Nav.Link href="#roadmapComponent">ROADMAP</Nav.Link>
+                    <Nav.Link href="#creatorPartDiv">CREATOR</Nav.Link>
+                    <Nav.Link href="#aboutPage">ABOUT</Nav.Link>
                     {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
                     <Nav.Link href="#link">
                       {" "}
@@ -63,7 +63,7 @@ const NavBar = () => {
       {isDesktopOrLaptop && (
         <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
           <Container id="navbarContainer" fluid>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="#landingPage">
               {" "}
               <p className="navLink " id="navbarTitle">
                 llamadramaclub
@@ -74,14 +74,14 @@ const NavBar = () => {
               onClick={handleShow}
             />
             <Nav className="ms-auto">
-              <Nav.Link href="#home">
+              <Nav.Link href="#roadmapComponent">
                 <p className="navLink">ROADMAP</p>
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#creatorPartDiv">
                 {" "}
                 <p className="navLink">Creator</p>
               </Nav.Link>
-              <Nav.Link href="#link">
+              <Nav.Link href="#aboutPage">
                 {" "}
                 <p className="navLink">About</p>
               </Nav.Link>
