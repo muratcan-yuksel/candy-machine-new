@@ -41,13 +41,21 @@ const NavBar = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Offcanvas id="canvas" show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+                  {/* <Offcanvas.Title>Offcanvas</Offcanvas.Title> */}
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   <Nav className="me-auto">
-                    <Nav.Link href="#roadmapComponent">ROADMAP</Nav.Link>
-                    <Nav.Link href="#creatorPartDiv">CREATOR</Nav.Link>
-                    <Nav.Link href="#aboutPage">ABOUT</Nav.Link>
+                    <Nav.Link href="#roadmapComponent">
+                      <p className="canvasLink">ROADMAP</p>
+                    </Nav.Link>
+                    <Nav.Link href="#creatorPartDiv">
+                      {" "}
+                      <p className="canvasLink">CREATOR</p>
+                    </Nav.Link>
+                    <Nav.Link href="#aboutPage">
+                      {" "}
+                      <p className="canvasLink">ABOUT</p>
+                    </Nav.Link>
                     {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
                     <Nav.Link href="#link">
                       {" "}

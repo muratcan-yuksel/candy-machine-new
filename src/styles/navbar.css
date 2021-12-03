@@ -12,6 +12,11 @@
 #canvas {
   background-color: #ff006a !important;
 }
+.canvasLink {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
 .navLink {
   color: white;
   font-size: 1.3em;
