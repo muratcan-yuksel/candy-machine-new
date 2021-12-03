@@ -1,4 +1,4 @@
-import "./App.css";
+import "./MintApp.css";
 import { useMemo } from "react";
 
 import Home from "./Home";
@@ -68,7 +68,7 @@ const theme = createTheme({
   },
 });
 
-const App = () => {
+const MintApp = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
   const wallets = useMemo(
@@ -102,4 +102,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default MintApp;

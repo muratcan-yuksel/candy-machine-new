@@ -3,6 +3,11 @@ import styled from "styled-components";
 import Countdown from "react-countdown";
 import { Button, CircularProgress, Snackbar } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
+//my imports
+import "./styles/landing.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import { Container, Row, Col } from "react-bootstrap";
 
 import * as anchor from "@project-serum/anchor";
 
@@ -167,60 +172,107 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      <div className="min-container">
-        {wallet && (
-          <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-        )}
+      <div id="landingPage">
+        <Container fluid id="landingContainer">
+          <Row>
+            <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
+              <div id="landingImageContainer">
+                <div id="landingImage"> </div>
+              </div>
+            </Col>
+            <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
+              <div id="landingWelcomeGroup">
+                {/* Minting Section (Where the MINT button is):  */}
+                <h2>Thousands of loveable llamas from the </h2>
+                <h1>llamadramaclub</h1>
+                <h2>are joining the NFT world January 2022.</h2>
+                {/* minting starts here */}
+                <div className="mint-container">
+                  {wallet && (
+                    <p>
+                      Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}
+                    </p>
+                  )}
 
-        {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
+                  {wallet && (
+                    <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
+                  )}
 
-        {wallet && <p>Total Available: {itemsAvailable}</p>}
+                  {wallet && <p>Total Available: {itemsAvailable}</p>}
 
-        {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+                  {wallet && <p>Redeemed: {itemsRedeemed}</p>}
 
-        {wallet && <p>Remaining: {itemsRemaining}</p>}
+                  {wallet && <p>Remaining: {itemsRemaining}</p>}
 
-        <MintContainer>
-          {!wallet ? (
-            <ConnectButton>Connect Wallet</ConnectButton>
-          ) : (
-            <MintButton
-              disabled={isSoldOut || isMinting || !isActive}
-              onClick={onMint}
-              variant="contained"
-            >
-              {isSoldOut ? (
-                "SOLD OUT"
-              ) : isActive ? (
-                isMinting ? (
-                  <CircularProgress />
-                ) : (
-                  "MINT"
-                )
-              ) : (
-                <Countdown
-                  date={startDate}
-                  onMount={({ completed }) => completed && setIsActive(true)}
-                  onComplete={() => setIsActive(true)}
-                  renderer={renderCounter}
-                />
-              )}
-            </MintButton>
-          )}
-        </MintContainer>
+                  <MintContainer>
+                    {!wallet ? (
+                      <ConnectButton>Connect Wallet</ConnectButton>
+                    ) : (
+                      <MintButton
+                        disabled={isSoldOut || isMinting || !isActive}
+                        onClick={onMint}
+                        variant="contained"
+                      >
+                        {isSoldOut ? (
+                          "SOLD OUT"
+                        ) : isActive ? (
+                          isMinting ? (
+                            <CircularProgress />
+                          ) : (
+                            "MINT"
+                          )
+                        ) : (
+                          <Countdown
+                            date={startDate}
+                            onMount={({ completed }) =>
+                              completed && setIsActive(true)
+                            }
+                            onComplete={() => setIsActive(true)}
+                            renderer={renderCounter}
+                          />
+                        )}
+                      </MintButton>
+                    )}
+                  </MintContainer>
 
-        <Snackbar
-          open={alertState.open}
-          autoHideDuration={6000}
-          onClose={() => setAlertState({ ...alertState, open: false })}
-        >
-          <Alert
-            onClose={() => setAlertState({ ...alertState, open: false })}
-            severity={alertState.severity}
-          >
-            {alertState.message}
-          </Alert>
-        </Snackbar>
+                  <Snackbar
+                    open={alertState.open}
+                    autoHideDuration={6000}
+                    onClose={() =>
+                      setAlertState({ ...alertState, open: false })
+                    }
+                  >
+                    <Alert
+                      onClose={() =>
+                        setAlertState({ ...alertState, open: false })
+                      }
+                      severity={alertState.severity}
+                    >
+                      {alertState.message}
+                    </Alert>
+                  </Snackbar>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <div id="LandingFollows">
+                <div id="followButtons">
+                  <span className="followButton">
+                    <button id="twitterBtn">Twitter</button>
+                  </span>
+                  <span className="followButton">
+                    <button id="discordBtn">Twitter</button>
+                  </span>
+                  {/* <span className="followButton">
+                  <Button variant="warning">Instagram</Button>{" "}
+                </span> */}
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </main>
   );
