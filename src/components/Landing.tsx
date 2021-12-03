@@ -5,7 +5,7 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 const Landing = () => {
   return (
     <div id="landingPage">
-      <Container fluid>
+      <Container fluid id="landingContainer">
         <Row>
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div id="landingImageContainer">
@@ -18,7 +18,9 @@ const Landing = () => {
               <h2>Thousands of loveable llamas from the </h2>
               <h1>llamadramaclub</h1>
               <h2>are joining the NFT world January 2022.</h2>
-              <Button variant="warning">MINT</Button>{" "}
+              <Button id="mintButton" variant="warning">
+                MINT NOW
+              </Button>{" "}
             </div>
           </Col>
         </Row>
@@ -27,14 +29,18 @@ const Landing = () => {
             <div id="LandingFollows">
               <div id="followButtons">
                 <span className="followButton">
-                  <Button variant="warning">Twitter</Button>{" "}
+                  <Button id="twitterBtn" variant="warning">
+                    Twitter
+                  </Button>{" "}
                 </span>
                 <span className="followButton">
-                  <Button variant="warning">Facebook</Button>{" "}
+                  <Button id="discordBtn" variant="warning">
+                    Discord
+                  </Button>{" "}
                 </span>
-                <span className="followButton">
+                {/* <span className="followButton">
                   <Button variant="warning">Instagram</Button>{" "}
-                </span>
+                </span> */}
               </div>
             </div>
           </Col>

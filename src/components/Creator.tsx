@@ -27,7 +27,9 @@ const Creator = () => {
                 eaque, commodi architecto voluptate, beatae laboriosam earum
                 impedit odit dolorem adipisci facere.
               </p>
-              <Button variant="dark">Dark</Button>{" "}
+              <Button id="creatorBtn" variant="dark">
+                Follow
+              </Button>{" "}
             </div>
           </Col>
         </Row>

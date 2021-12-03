@@ -13,6 +13,9 @@
   background-color: black;
   margin-top: 5em;
 }
+/* #landingContainer {
+  padding: 0;
+} */
 #landingImage {
   color: white;
   font-size: 10em;
@@ -42,4 +45,19 @@
 }
 .followButton {
   margin: 1em;
+}
+#mintButton {
+  height: 3em;
+  width: 70%;
+  font-size: 3em;
+  margin-top: 2em;
+  font-weight: 500;
+}
+#twitterBtn {
+  width: 20em;
+  font-weight: 500;
+}
+#discordBtn {
+  width: 15em;
+  font-weight: 500;
 }

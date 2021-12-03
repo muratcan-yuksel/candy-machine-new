@@ -29,3 +29,6 @@
   align-items: center;
   padding: 5em;
 }
+#creatorBtn {
+  font-weight: 500;
+}

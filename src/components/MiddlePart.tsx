@@ -26,7 +26,9 @@ const MiddlePart = () => {
               eaque, commodi architecto voluptate, beatae laboriosam earum
               impedit odit dolorem adipisci facere.
             </p>
-            <Button variant="dark">Dark</Button>{" "}
+            <Button id="followUsBtn" variant="dark">
+              Follow us on Twitter
+            </Button>{" "}
           </div>
         </Col>
       </Row>

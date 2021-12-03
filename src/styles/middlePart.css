@@ -27,3 +27,6 @@
   align-items: center;
   padding: 5em;
 }
+#followUsBtn {
+  font-weight: 500;
+}
