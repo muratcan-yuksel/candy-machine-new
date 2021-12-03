@@ -10,9 +10,11 @@
 }
 #signupForm {
   display: flex;
-  /* border: 2px solid white; */
 }
 .signupItem {
   margin: 0.5em;
   margin-bottom: 5em;
+}
+#signupBtn {
+  width: 7em;
 }

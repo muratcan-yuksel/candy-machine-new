@@ -5,6 +5,7 @@
 - was created by a group of creatives with a passion for music,
 - theater
 - and animation. It is our goal to spearhead projects of various genres and collab with our favorite artist who dabbling in art, short film animation and gaming.
+
 - Roadmap
 - resale
 - Collectors will be able to grab llamas at a special discounted price with no mint limit.
@@ -12,8 +13,7 @@
 - Launch day
 - If you missed out on the presale, don’t worry!
 - 5,000 more llamas will be released on launch day.
-- Videogame
-- drop
+- Videogame drop
 - At 75%, we plan on launching development of our game world. We cannot express enough how diverse our game launches will be. Our goal is to create something for everyone to enjoy every quarter. NFT holders will instantly gain freebies in games once launched.
 - Animated short films
 - We aren’t called the drama club for nothing.

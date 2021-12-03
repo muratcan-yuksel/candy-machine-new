@@ -5,14 +5,21 @@ import "../styles/signup.css";
 const Signup = () => {
   return (
     <div id="signUpDiv">
-      <h1>Title</h1>
-      <p>-lorem ipsum dolor sit amet</p>
-      <p>dolor ipsum</p>
-      <p>dolor ipsum</p>
+      <h1>Stay in touch</h1>
+      <h2>
+        Be the first to know about the exciting things to come for our Fuzzie
+        Family.
+      </h2>
+
       <div id="signupForm">
-        <input className="signupItem" type="text" placeholder="email address" />
-        <Button className="signupItem" variant="warning">
-          Warning
+        <input
+          style={{ padding: "10px" }}
+          className="signupItem"
+          type="text"
+          placeholder="email address"
+        />
+        <Button id="signupBtn" className="signupItem" variant="warning">
+          Send
         </Button>{" "}
       </div>
     </div>
