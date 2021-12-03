@@ -3,18 +3,28 @@
   background-color: #ff006a !important;
   margin-bottom: 5em;
   width: 100vw;
-  /* padding: 0 !important; */
 }
 #navbarContainer {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  border: 1px solid black;
 }
 #canvas {
   background-color: #ff006a !important;
 }
 .navLink {
   color: white;
-  /* text-decoration: none; */
+  font-size: 1.3em;
+  font-weight: 500;
+}
+#navbarToggle {
+  padding: 2em;
+  border: none;
+}
+#navbarTitle {
+  font-weight: 500;
+  border: 2px solid black;
+  padding: 5px;
+  color: white;
+  background-color: black;
 }
