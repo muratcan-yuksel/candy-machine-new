@@ -9,7 +9,7 @@ const Roadmap = () => {
       <div>
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Resale</h2>
                 <p className="roadmapText">
@@ -19,7 +19,7 @@ const Roadmap = () => {
                 <p className="roadmapText">5,000 llamas will be released.</p>
               </div>
             </Col>{" "}
-            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Launch day</h2>
                 <p className="roadmapText">
@@ -30,7 +30,7 @@ const Roadmap = () => {
                 </p>
               </div>
             </Col>{" "}
-            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Videogame drop</h2>
                 <p className="roadmapText">
@@ -42,7 +42,25 @@ const Roadmap = () => {
                 </p>
               </div>
             </Col>{" "}
-            <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+          </Row>
+          <Row>
+            <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
+              <div className="roadmapTextContainer">
+                <h2 className="roadmapTitle"> Tesla Giveaway</h2>
+                <div className="roadmapText">
+                  <p>
+                    {" "}
+                    That’s right! At 100% We will be giving away a Tesla! -
+                    Follow Twitter, FB, Insta
+                  </p>
+                  <h3>Follow us on:</h3>
+                  <Button variant="warning">Twitter</Button>{" "}
+                  <Button variant="warning">Facebook</Button>{" "}
+                  <Button variant="warning">Instagram</Button>{" "}
+                </div>
+              </div>
+            </Col>{" "}
+            <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Animated short films</h2>
                 <p className="roadmapText">
@@ -57,39 +75,6 @@ const Roadmap = () => {
                   that will make you laugh, and hopefully leave you wanting
                   more. NFT holders will gain early access to each episode
                   before general public
-                </p>
-              </div>
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
-              <div className="roadmapTextContainer">
-                <h2 className="roadmapTitle"> Tesla Giveaway</h2>
-                <p className="roadmapText">
-                  That’s right! At 100% We will be giving away a Tesla! - Follow
-                  Twitter, FB, Insta
-                </p>
-              </div>
-            </Col>{" "}
-            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
-              <div className="roadmapTextContainer">
-                <h2 className="roadmapTitle">Title</h2>
-                <p className="roadmapText">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Architecto adipisci debitis praesentium mollitia, sit eos
-                  voluptates maxime ab quae a veritatis quas ex velit veniam
-                  laborum esse reprehenderit exercitationem corrupti.
-                </p>
-              </div>
-            </Col>{" "}
-            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
-              <div className="roadmapTextContainer">
-                <h2 className="roadmapTitle">Title</h2>
-                <p className="roadmapText">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Architecto adipisci debitis praesentium mollitia, sit eos
-                  voluptates maxime ab quae a veritatis quas ex velit veniam
-                  laborum esse reprehenderit exercitationem corrupti.
                 </p>
               </div>
             </Col>
