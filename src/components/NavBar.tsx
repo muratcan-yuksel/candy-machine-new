@@ -13,7 +13,7 @@ const NavBar = () => {
   //react responsive config
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
   const isDesktopOrLaptop = useMediaQuery({
-    query: "(min-width: 1224px)",
+    query: "(min-width: 1000px)",
   });
 
   return (
@@ -105,7 +105,7 @@ const NavBar = () => {
         </Navbar>
       )}
       {/* else */}
-      <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
+      {/* <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
         <Container fluid>
           <Navbar.Brand href="#home">
             {" "}
@@ -158,7 +158,7 @@ const NavBar = () => {
             </Offcanvas>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar> */}
     </div>
   );
 };
