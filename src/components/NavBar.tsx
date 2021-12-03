@@ -36,10 +36,10 @@ const NavBar = () => {
                     <Nav.Link href="#home">ROADMAP</Nav.Link>
                     <Nav.Link href="#link">CREATOR</Nav.Link>
                     <Nav.Link href="#link">ABOUT</Nav.Link>
-                    <Nav.Link href="#link">FUZZIES LOGO</Nav.Link>
+                    {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
                     <Nav.Link href="#link">YOUTUBE</Nav.Link>
                     <Nav.Link href="#link">TWITTER</Nav.Link>
-                    <Button variant="warning">Warning</Button>{" "}
+                    {/* <Button variant="warning">Warning</Button>{" "} */}
                   </Nav>
                 </Offcanvas.Body>
               </Offcanvas>
@@ -50,115 +50,43 @@ const NavBar = () => {
 
       {isDesktopOrLaptop && (
         <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
-          <Container fluid>
+          <Container id="navbarContainer" fluid>
             <Navbar.Brand href="#home">
               {" "}
-              <p className="navLink">Home</p>
+              {/* <p className="navLink">Home</p> */}
             </Navbar.Brand>
             <Navbar.Toggle
               aria-controls="basic-navbar-nav"
               onClick={handleShow}
             />
-            <Nav.Link href="#home">
-              <p className="navLink">ROADMAP</p>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              {" "}
-              <p className="navLink">Creator</p>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              {" "}
-              <p className="navLink">About</p>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              {" "}
-              <p className="navLink">Logo</p>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              {" "}
-              <p className="navLink">Youtube</p>
-            </Nav.Link>
-            <Nav.Link href="#link">
-              {" "}
-              <p className="navLink">Twitter</p>
-            </Nav.Link>
-            <Button variant="warning">Warning</Button>{" "}
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Offcanvas id="canvas" show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
-                  <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                  <Nav className="me-auto">
-                    <Nav.Link href="#home">ROADMAP</Nav.Link>
-                    <Nav.Link href="#link">CREATOR</Nav.Link>
-                    <Nav.Link href="#link">ABOUT</Nav.Link>
-                    <Nav.Link href="#link">FUZZIES LOGO</Nav.Link>
-                    <Nav.Link href="#link">YOUTUBE</Nav.Link>
-                    <Nav.Link href="#link">TWITTER</Nav.Link>
-                    <Button variant="warning">Warning</Button>{" "}
-                  </Nav>
-                </Offcanvas.Body>
-              </Offcanvas>
-            </Navbar.Collapse>
+            <Nav className="ms-auto">
+              <Nav.Link href="#home">
+                <p className="navLink">ROADMAP</p>
+              </Nav.Link>
+              <Nav.Link href="#link">
+                {" "}
+                <p className="navLink">Creator</p>
+              </Nav.Link>
+              <Nav.Link href="#link">
+                {" "}
+                <p className="navLink">About</p>
+              </Nav.Link>
+              <Nav.Link href="#link">
+                {" "}
+                {/* <p className="navLink">Logo</p> */}
+              </Nav.Link>
+              <Nav.Link href="#link">
+                {" "}
+                <p className="navLink">Youtube</p>
+              </Nav.Link>
+              <Nav.Link href="#link">
+                {" "}
+                <p className="navLink">Twitter</p>
+              </Nav.Link>
+            </Nav>
           </Container>
         </Navbar>
       )}
-      {/* else */}
-      {/* <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
-        <Container fluid>
-          <Navbar.Brand href="#home">
-            {" "}
-            <p className="navLink">Home</p>
-          </Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="basic-navbar-nav"
-            onClick={handleShow}
-          />
-          <Nav.Link href="#home">
-            <p className="navLink">ROADMAP</p>
-          </Nav.Link>
-          <Nav.Link href="#link">
-            {" "}
-            <p className="navLink">Creator</p>
-          </Nav.Link>
-          <Nav.Link href="#link">
-            {" "}
-            <p className="navLink">About</p>
-          </Nav.Link>
-          <Nav.Link href="#link">
-            {" "}
-            <p className="navLink">Logo</p>
-          </Nav.Link>
-          <Nav.Link href="#link">
-            {" "}
-            <p className="navLink">Youtube</p>
-          </Nav.Link>
-          <Nav.Link href="#link">
-            {" "}
-            <p className="navLink">Twitter</p>
-          </Nav.Link>
-          <Button variant="warning">Warning</Button>{" "}
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Offcanvas id="canvas" show={show} onHide={handleClose}>
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title>Offcanvas</Offcanvas.Title>
-              </Offcanvas.Header>
-              <Offcanvas.Body>
-                <Nav className="me-auto">
-                  <Nav.Link href="#home">ROADMAP</Nav.Link>
-                  <Nav.Link href="#link">CREATOR</Nav.Link>
-                  <Nav.Link href="#link">ABOUT</Nav.Link>
-                  <Nav.Link href="#link">FUZZIES LOGO</Nav.Link>
-                  <Nav.Link href="#link">YOUTUBE</Nav.Link>
-                  <Nav.Link href="#link">TWITTER</Nav.Link>
-                  <Button variant="warning">Warning</Button>{" "}
-                </Nav>
-              </Offcanvas.Body>
-            </Offcanvas>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar> */}
     </div>
   );
 };
