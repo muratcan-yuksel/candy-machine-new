@@ -14,13 +14,11 @@ const Creator = () => {
           </Col>
           <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
             <div id="creatorText">
-              <h1>Title</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dolores maxime ducimus doloribus, harum dolorum nulla unde illum
-                animi adipisci praesentium placeat! Ratione, fuga quos odio
-                labore ut quisquam libero nesciunt!
-              </p>
+              <h1>Creator</h1>
+              <h1>
+                There's not enough text for this part. Do you want to keep or
+                remove it?
+              </h1>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id,
                 similique aut? Numquam sed voluptates in! Quisquam porro culpa
