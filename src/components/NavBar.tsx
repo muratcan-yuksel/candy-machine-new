@@ -13,13 +13,18 @@ const NavBar = () => {
   //Off canbas config
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // const handleShow = () => setShow(true);
   //react responsive config
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1000px)",
   });
-
+  //enable offcanvas scrolling
+  const handleShow = (e: any) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setShow(true);
+  };
   return (
     <div>
       {isTabletOrMobile && (
