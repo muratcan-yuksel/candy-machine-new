@@ -23,29 +23,37 @@ const Examples = (props: any) => {
             </Col>
             <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
               <div className="ExampleImageContainer">
-                <div className="ExampleImage"></div>
+                <img
+                  className="ExampleImage"
+                  src={props.secondPicture}
+                  alt=""
+                />
               </div>
             </Col>{" "}
             <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
               <div className="ExampleImageContainer">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.thirdPicture} alt="" />
               </div>
             </Col>{" "}
           </Row>
           <Row>
             <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
               <div className="ExampleImageContainer">
-                <div className="ExampleImage"></div>
+                <img
+                  className="ExampleImage"
+                  src={props.fourthPicture}
+                  alt=""
+                />
               </div>
             </Col>
             <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
               <div className="ExampleImageContainer">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.fifthPicture} alt="" />
               </div>
             </Col>{" "}
             <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
               <div className="ExampleImageContainer">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.sixthPicture} alt="" />
               </div>
             </Col>{" "}
           </Row>{" "}
@@ -58,36 +66,44 @@ const Examples = (props: any) => {
           <Row>
             <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
               <div className="ExampleImageContainerMobile">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.firstPicture} alt="" />
               </div>
             </Col>
             <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
               <div className="ExampleImageContainerMobile">
-                <div className="ExampleImage"></div>
+                <img
+                  className="ExampleImage"
+                  src={props.secondPicture}
+                  alt=""
+                />
               </div>
             </Col>{" "}
           </Row>
           <Row>
             <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
               <div className="ExampleImageContainerMobile">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.thirdPicture} alt="" />
               </div>
             </Col>{" "}
             <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
               <div className="ExampleImageContainerMobile">
-                <div className="ExampleImage"></div>
+                <img
+                  className="ExampleImage"
+                  src={props.fourthPicture}
+                  alt=""
+                />
               </div>
             </Col>
           </Row>{" "}
           <Row>
             <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
               <div className="ExampleImageContainerMobile">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.fifthPicture} alt="" />
               </div>
             </Col>{" "}
             <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
               <div className="ExampleImageContainerMobile">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.sixthPicture} alt="" />
               </div>
             </Col>
           </Row>{" "}

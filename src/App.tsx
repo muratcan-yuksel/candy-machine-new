@@ -20,12 +20,11 @@ import fourthPic from "./assets/3.png";
 import fifthPic from "./assets/9.png";
 import sixthPic from "./assets/11.png";
 import seventhPic from "./assets/12.png";
-import eightthPic from "./assets/13.png";
+import eighthPic from "./assets/2018.png";
 import ninthPic from "./assets/92.png";
 import tenthPic from "./assets/97.png";
 import eleventhPic from "./assets/2016.png";
 import twelvethPic from "./assets/2017.png";
-import thirteenthPic from "./assets/2018.png";
 
 import Home from "./Home";
 
@@ -130,15 +129,30 @@ const App = () => {
       </ThemeProvider>
 
       <About />
-      <Examples firstPicture={firstPic} />
-      <MiddlePart />
-      <Examples />
+      <Examples
+        firstPicture={firstPic}
+        secondPicture={secondPic}
+        thirdPicture={thirdPic}
+        fourthPicture={fourthPic}
+        fifthPicture={fifthPic}
+        sixthPicture={sixthPic}
+      />
+      {/* <MiddlePart /> */}
       <Roadmap />
-      <FillerImages />
+
+      <Examples
+        firstPicture={seventhPic}
+        secondPicture={eighthPic}
+        thirdPicture={ninthPic}
+        fourthPicture={tenthPic}
+        fifthPicture={eleventhPic}
+        sixthPicture={twelvethPic}
+      />
+      {/* <FillerImages /> */}
       <FAQ />
       <Creator />
       <Signup />
-      <FillerImages />
+      {/* <FillerImages /> */}
     </div>
   );
 };
