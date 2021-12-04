@@ -10,6 +10,7 @@
   height: 55vh;
   background-color: black;
   margin: 0;
+  margin-bottom: 1em;
 }
 .ExampleImageContainerMobile {
   width: 100%;
@@ -23,5 +24,4 @@
   object-fit: contain;
   /* color: white; */
   font-size: 10em;
-  border: 2px solid blue;
 }

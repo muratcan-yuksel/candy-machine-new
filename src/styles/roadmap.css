@@ -9,7 +9,25 @@
   color: white;
   font-weight: 700;
 }
+#roadmapCompTitle {
+  font-size: 5em;
+  color: black;
+  border-bottom: 2px solid white;
+}
 .roadmapTextContainer {
   margin-bottom: 3em;
   margin-top: 3em;
+  background-color: #ce0e5e;
+  padding: 1em;
+}
+.roadmapTitle {
+  margin-bottom: 15px;
+  color: black;
+  font-size: 3em;
+  font-weight: 700;
+}
+.roadmapText {
+}
+.roadmapBtn {
+  /* background-color: white !important; */
 }

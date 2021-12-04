@@ -5,11 +5,11 @@ import "../styles/roadmap.css";
 const Roadmap = () => {
   return (
     <div id="roadmapComponent">
-      <h1>RoadMap</h1>
+      <h1 id="roadmapCompTitle">RoadMap</h1>
       <div>
         <Container>
           <Row>
-            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
+            <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Resale</h2>
                 <p className="roadmapText">
@@ -19,7 +19,7 @@ const Roadmap = () => {
                 <p className="roadmapText">5,000 llamas will be released.</p>
               </div>
             </Col>{" "}
-            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
+            <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Launch day</h2>
                 <p className="roadmapText">
@@ -30,7 +30,7 @@ const Roadmap = () => {
                 </p>
               </div>
             </Col>{" "}
-            <Col xs={12} sm={12} md={4} lg={4} xl={4} xxl={4}>
+            <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Videogame drop</h2>
                 <p className="roadmapText">
@@ -42,25 +42,7 @@ const Roadmap = () => {
                 </p>
               </div>
             </Col>{" "}
-          </Row>
-          <Row>
-            <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
-              <div className="roadmapTextContainer">
-                <h2 className="roadmapTitle"> Tesla Giveaway</h2>
-                <div className="roadmapText">
-                  <p>
-                    {" "}
-                    That’s right! At 100% We will be giving away a Tesla! -
-                    Follow Twitter, FB, Insta
-                  </p>
-                  <h3>Follow us on:</h3>
-                  <Button variant="warning">Twitter</Button>{" "}
-                  <Button variant="warning">Facebook</Button>{" "}
-                  <Button variant="warning">Instagram</Button>{" "}
-                </div>
-              </div>
-            </Col>{" "}
-            <Col xs={12} sm={12} md={6} lg={6} xl={6} xxl={6}>
+            <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
               <div className="roadmapTextContainer">
                 <h2 className="roadmapTitle">Animated short films</h2>
                 <p className="roadmapText">
@@ -78,6 +60,28 @@ const Roadmap = () => {
                 </p>
               </div>
             </Col>
+            <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
+              <div className="roadmapTextContainer">
+                <h2 className="roadmapTitle"> Tesla Giveaway</h2>
+                <div className="roadmapText">
+                  <p>
+                    {" "}
+                    That’s right! At 100% We will be giving away a Tesla! -
+                    Follow Twitter, FB, Insta
+                  </p>
+                  <h3>Follow us on:</h3>
+                  <Button className="roadmapBtn" variant="warning">
+                    Twitter
+                  </Button>{" "}
+                  <Button className="roadmapBtn" variant="warning">
+                    Facebook
+                  </Button>{" "}
+                  <Button className="roadmapBtn" variant="warning">
+                    Instagram
+                  </Button>{" "}
+                </div>
+              </div>
+            </Col>{" "}
           </Row>{" "}
         </Container>
       </div>
