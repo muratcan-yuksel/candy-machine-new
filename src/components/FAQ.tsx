@@ -5,10 +5,10 @@ import "../styles/faq.css";
 const FAQ = () => {
   return (
     <div id="faqComponent">
-      <h1>FAQ</h1>
+      <h1 id="faqCompTitle">FAQ</h1>
       <Container>
         <Row>
-          <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
             <div className="faqTextContainer">
               <h2 className="faqTitle">How do I get an NFT?</h2>
               <p className="faqText">
@@ -17,13 +17,13 @@ const FAQ = () => {
               </p>
             </div>
           </Col>{" "}
-          <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
             <div className="faqTextContainer">
               <h2 className="faqTitle">When will the llamas be available?</h2>
               <p className="faqText">January 2022</p>
             </div>
           </Col>{" "}
-          <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
             <div className="faqTextContainer">
               <h2 className="faqTitle">How many NFTs can I buy?</h2>
               <p className="faqText">
@@ -33,7 +33,7 @@ const FAQ = () => {
               </p>
             </div>
           </Col>{" "}
-          <Col xs={12} sm={12} md={3} lg={3} xl={3} xxl={3}>
+          <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
             <div className="faqTextContainer">
               <h2 className="faqTitle">Why Sol?</h2>
               <p className="faqText">
