@@ -68,7 +68,7 @@ const theme = createTheme({
   },
 });
 
-const MintApp = () => {
+const App = () => {
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
   const wallets = useMemo(
@@ -102,4 +102,4 @@ const MintApp = () => {
   );
 };
 
-export default MintApp;
+export default App;
