@@ -8,14 +8,14 @@
 .ExampleImageContainer {
   width: 100%;
   height: 55vh;
-  background-color: black;
+  /* background-color: black; */
   margin: 0;
   margin-bottom: 1em;
 }
 .ExampleImageContainerMobile {
   width: 100%;
   height: 35vh;
-  background-color: black;
+  /* background-color: black; */
   margin: 0;
 }
 .ExampleImage {
