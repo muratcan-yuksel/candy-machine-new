@@ -4,7 +4,7 @@ import "../styles/examples.css";
 import { useMediaQuery } from "react-responsive";
 import { Divider } from "@material-ui/core";
 
-const Examples = () => {
+const Examples = (props: any) => {
   const isDesktopOrLaptop = useMediaQuery({
     query: "(min-width: 1224px)",
   });
@@ -18,7 +18,7 @@ const Examples = () => {
           <Row>
             <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
               <div className="ExampleImageContainer">
-                <div className="ExampleImage"></div>
+                <img className="ExampleImage" src={props.firstPicture} alt="" />
               </div>
             </Col>
             <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>

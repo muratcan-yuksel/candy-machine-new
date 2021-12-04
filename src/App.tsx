@@ -13,6 +13,19 @@ import FAQ from "./components/FAQ";
 import Creator from "./components/Creator";
 import Signup from "./components/Signup";
 import "./styles/app.css";
+import firstPic from "./assets/0.png";
+import secondPic from "./assets/1.png";
+import thirdPic from "./assets/2.png";
+import fourthPic from "./assets/3.png";
+import fifthPic from "./assets/9.png";
+import sixthPic from "./assets/11.png";
+import seventhPic from "./assets/12.png";
+import eightthPic from "./assets/13.png";
+import ninthPic from "./assets/92.png";
+import tenthPic from "./assets/97.png";
+import eleventhPic from "./assets/2016.png";
+import twelvethPic from "./assets/2017.png";
+import thirteenthPic from "./assets/2018.png";
 
 import Home from "./Home";
 
@@ -117,7 +130,7 @@ const App = () => {
       </ThemeProvider>
 
       <About />
-      <Examples />
+      <Examples firstPicture={firstPic} />
       <MiddlePart />
       <Examples />
       <Roadmap />
