@@ -38,13 +38,18 @@ const NavBar = () => {
               <Nav.Link href="#roadmapComponent">
                 <p className="canvasLink">ROADMAP</p>
               </Nav.Link>
-              <Nav.Link href="#creatorPartDiv">
-                {" "}
-                <p className="canvasLink">CREATOR</p>
-              </Nav.Link>
+
               <Nav.Link href="#aboutPage">
                 {" "}
                 <p className="canvasLink">ABOUT</p>
+              </Nav.Link>
+              <Nav.Link href="#faqComponent">
+                {" "}
+                <p className="canvasLink">FAQ</p>
+              </Nav.Link>
+              <Nav.Link href="#signUpDiv">
+                {" "}
+                <p className="canvasLink">STAY IN TOUCH</p>
               </Nav.Link>
               {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
               <Nav.Link href="#link">
