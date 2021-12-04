@@ -17,8 +17,10 @@
   padding: 0;
 } */
 #landingImage {
-  color: white;
-  font-size: 10em;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #ff006a;
 }
 #landingWelcomeGroup {
   width: 100%;

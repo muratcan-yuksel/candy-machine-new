@@ -6,7 +6,7 @@ import Alert from "@material-ui/lab/Alert";
 //my imports
 import "./styles/landing.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import MainImage from "./assets/13.png";
 import { Container, Row, Col } from "react-bootstrap";
 
 import * as anchor from "@project-serum/anchor";
@@ -177,7 +177,8 @@ const Home = (props: HomeProps) => {
           <Row>
             <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
               <div id="landingImageContainer">
-                <div id="landingImage"> </div>
+                {/* <div id="landingImage"> </div> */}
+                <img src={MainImage} alt="" id="landingImage" />
               </div>
             </Col>
             <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
