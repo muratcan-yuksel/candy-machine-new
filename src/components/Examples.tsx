@@ -15,48 +15,68 @@ const Examples = (props: any) => {
       {isDesktopOrLaptop && (
         <div>
           {" "}
-          <Row>
-            <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-              <div className="ExampleImageContainer">
-                <img className="ExampleImage" src={props.firstPicture} alt="" />
-              </div>
-            </Col>
-            <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-              <div className="ExampleImageContainer">
-                <img
-                  className="ExampleImage"
-                  src={props.secondPicture}
-                  alt=""
-                />
-              </div>
-            </Col>{" "}
-            <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-              <div className="ExampleImageContainer">
-                <img className="ExampleImage" src={props.thirdPicture} alt="" />
-              </div>
-            </Col>{" "}
-          </Row>
-          <Row>
-            <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-              <div className="ExampleImageContainer">
-                <img
-                  className="ExampleImage"
-                  src={props.fourthPicture}
-                  alt=""
-                />
-              </div>
-            </Col>
-            <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-              <div className="ExampleImageContainer">
-                <img className="ExampleImage" src={props.fifthPicture} alt="" />
-              </div>
-            </Col>{" "}
-            <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
-              <div className="ExampleImageContainer">
-                <img className="ExampleImage" src={props.sixthPicture} alt="" />
-              </div>
-            </Col>{" "}
-          </Row>{" "}
+          <div data-aos="fade-right">
+            <Row>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                <div className="ExampleImageContainer">
+                  <img
+                    className="ExampleImage"
+                    src={props.firstPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                <div className="ExampleImageContainer">
+                  <img
+                    className="ExampleImage"
+                    src={props.secondPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>{" "}
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                <div className="ExampleImageContainer">
+                  <img
+                    className="ExampleImage"
+                    src={props.thirdPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>{" "}
+            </Row>
+          </div>
+          <div data-aos="fade-left">
+            <Row>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                <div className="ExampleImageContainer">
+                  <img
+                    className="ExampleImage"
+                    src={props.fourthPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                <div className="ExampleImageContainer">
+                  <img
+                    className="ExampleImage"
+                    src={props.fifthPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>{" "}
+              <Col xs={4} sm={4} md={4} lg={4} xl={4} xxl={4}>
+                <div className="ExampleImageContainer">
+                  <img
+                    className="ExampleImage"
+                    src={props.sixthPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>{" "}
+            </Row>{" "}
+          </div>
         </div>
       )}
       {/* 3 rows 2 images */}
