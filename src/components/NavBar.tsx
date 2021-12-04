@@ -27,99 +27,37 @@ const NavBar = () => {
   };
   return (
     <div>
-      {isTabletOrMobile && (
-        <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
-          <Container fluid>
-            <Navbar.Brand href="#landingPage" id="navbarTitle">
-              llamadramaclub
-            </Navbar.Brand>
-            <Navbar.Toggle
-              aria-controls="basic-navbar-nav"
-              onClick={handleShow}
-              id="navbarToggle"
-            />
-            <Navbar.Collapse id="basic-navbar-nav">
-              <Offcanvas id="canvas" show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
-                  {/* <Offcanvas.Title>Offcanvas</Offcanvas.Title> */}
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                  <Nav className="me-auto">
-                    <Nav.Link href="#roadmapComponent">
-                      <p className="canvasLink">ROADMAP</p>
-                    </Nav.Link>
-                    <Nav.Link href="#creatorPartDiv">
-                      {" "}
-                      <p className="canvasLink">CREATOR</p>
-                    </Nav.Link>
-                    <Nav.Link href="#aboutPage">
-                      {" "}
-                      <p className="canvasLink">ABOUT</p>
-                    </Nav.Link>
-                    {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
-                    <Nav.Link href="#link">
-                      {" "}
-                      <img src={youtubeLogo} alt="" />
-                    </Nav.Link>
-                    <Nav.Link href="#link">
-                      <img src={twitterLogo} alt="" />
-                    </Nav.Link>
-                    {/* <Button variant="warning">Warning</Button>{" "} */}
-                  </Nav>
-                </Offcanvas.Body>
-              </Offcanvas>
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
-      )}
-
-      {isDesktopOrLaptop && (
-        <Navbar id="navbarDiv" bg="light" expand="lg" fixed="top">
-          <Container id="navbarContainer" fluid>
-            <Navbar.Brand href="#landingPage">
-              {" "}
-              <p className="navLink " id="navbarTitle">
-                llamadramaclub
-              </p>
-            </Navbar.Brand>
-            <Navbar.Toggle
-              aria-controls="basic-navbar-nav"
-              onClick={handleShow}
-            />
-            <Nav className="ms-auto">
+      <Navbar id="navbarDiv" bg="dark" expand="lg" fixed="top">
+        <Container fluid>
+          <Navbar.Brand href="#landingPage" id="navbarTitle">
+            llamadramaclub
+          </Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="me-auto">
               <Nav.Link href="#roadmapComponent">
-                <p className="navLink">ROADMAP</p>
+                <p className="canvasLink">ROADMAP</p>
               </Nav.Link>
               <Nav.Link href="#creatorPartDiv">
                 {" "}
-                <p className="navLink">Creator</p>
+                <p className="canvasLink">CREATOR</p>
               </Nav.Link>
               <Nav.Link href="#aboutPage">
                 {" "}
-                <p className="navLink">About</p>
+                <p className="canvasLink">ABOUT</p>
               </Nav.Link>
+              {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
               <Nav.Link href="#link">
                 {" "}
-                {/* <p className="navLink">Logo</p> */}
+                <img src={youtubeLogo} alt="" />
               </Nav.Link>
               <Nav.Link href="#link">
-                {" "}
-                <p className="navLink">
-                  {" "}
-                  <img src={youtubeLogo} alt="" />
-                </p>
-              </Nav.Link>
-              <Nav.Link href="#link">
-                {" "}
-                <p className="navLink">
-                  {" "}
-                  <img src={twitterLogo} alt="" />
-                </p>
+                <img src={twitterLogo} alt="" />
               </Nav.Link>
             </Nav>
-          </Container>
-        </Navbar>
-      )}
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
     </div>
   );
 };
