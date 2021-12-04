@@ -183,9 +183,11 @@ const Home = (props: HomeProps) => {
             <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
               <div id="landingWelcomeGroup">
                 {/* Minting Section (Where the MINT button is):  */}
+                {/* <div id="landingWelcomeText"> */}
                 <h2>Thousands of loveable llamas from the </h2>
                 <h1>llamadramaclub</h1>
                 <h2>are joining the NFT world January 2022.</h2>
+                {/* </div> */}
                 {/* minting starts here */}
                 <div className="mint-container">
                   {wallet && (
@@ -266,11 +268,8 @@ const Home = (props: HomeProps) => {
                     <button id="twitterBtn">Twitter</button>
                   </span>
                   <span className="followButton">
-                    <button id="discordBtn">Twitter</button>
+                    <button id="discordBtn">Discord</button>
                   </span>
-                  {/* <span className="followButton">
-                  <Button variant="warning">Instagram</Button>{" "}
-                </span> */}
                 </div>
               </div>
             </Col>
