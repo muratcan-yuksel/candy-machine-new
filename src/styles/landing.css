@@ -47,7 +47,7 @@
   margin: 1em;
 }
 #mint-container {
-  height: 3em;
+  height: 4em;
   width: 70%;
   font-size: 3em;
   margin-top: 2em;
@@ -64,4 +64,23 @@
   font-weight: 500;
   background-color: black;
   color: white;
+}
+.mint-container {
+  border: 2px solid white;
+  background-color: #022446;
+  color: white;
+  padding: 10px;
+  font-weight: 500;
+}
+#connectButton {
+  /* background-color: #ffc107; */
+}
+#mintingButton {
+  background-color: #ffc107;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1.3em;
 }
