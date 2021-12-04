@@ -1,14 +1,29 @@
 #aboutPage {
-  width: 100vw;
-  height: 50vh;
+  width: 100%;
+  height: 30em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
   /* background-color: rgb(58, 6, 107); */
   background-color: #022446;
 
   color: white;
   padding: 2em;
+}
+#aboutTitle {
+  font-size: 3em;
+  color: white;
+  border-bottom: 5px solid black;
+  margin-bottom: 1em;
+  font-weight: 900;
+}
+
+.aboutText {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 0 2em 0 2em;
+  font-weight: 700;
+  border: 10px solid #ff006a;
+  padding: 1em;
 }
