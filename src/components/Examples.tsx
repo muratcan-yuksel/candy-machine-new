@@ -83,50 +83,72 @@ const Examples = (props: any) => {
       {isTabletOrMobile && (
         <div>
           {" "}
-          <Row>
-            <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <div className="ExampleImageContainerMobile">
-                <img className="ExampleImage" src={props.firstPicture} alt="" />
-              </div>
-            </Col>
-            <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <div className="ExampleImageContainerMobile">
-                <img
-                  className="ExampleImage"
-                  src={props.secondPicture}
-                  alt=""
-                />
-              </div>
-            </Col>{" "}
-          </Row>
-          <Row>
-            <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <div className="ExampleImageContainerMobile">
-                <img className="ExampleImage" src={props.thirdPicture} alt="" />
-              </div>
-            </Col>{" "}
-            <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <div className="ExampleImageContainerMobile">
-                <img
-                  className="ExampleImage"
-                  src={props.fourthPicture}
-                  alt=""
-                />
-              </div>
-            </Col>
-          </Row>{" "}
-          <Row>
-            <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <div className="ExampleImageContainerMobile">
-                <img className="ExampleImage" src={props.fifthPicture} alt="" />
-              </div>
-            </Col>{" "}
-            <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
-              <div className="ExampleImageContainerMobile">
-                <img className="ExampleImage" src={props.sixthPicture} alt="" />
-              </div>
-            </Col>
-          </Row>{" "}
+          <div data-aos="fade-right">
+            <Row>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
+                <div className="ExampleImageContainerMobile">
+                  <img
+                    className="ExampleImage"
+                    src={props.firstPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
+                <div className="ExampleImageContainerMobile">
+                  <img
+                    className="ExampleImage"
+                    src={props.secondPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>{" "}
+            </Row>
+          </div>
+          <div data-aos="fade-left">
+            <Row>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
+                <div className="ExampleImageContainerMobile">
+                  <img
+                    className="ExampleImage"
+                    src={props.thirdPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>{" "}
+              <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
+                <div className="ExampleImageContainerMobile">
+                  <img
+                    className="ExampleImage"
+                    src={props.fourthPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>
+            </Row>{" "}
+          </div>
+          <div data-aos="fade-right">
+            <Row>
+              <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
+                <div className="ExampleImageContainerMobile">
+                  <img
+                    className="ExampleImage"
+                    src={props.fifthPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>{" "}
+              <Col xs={6} sm={6} md={6} lg={6} xl={6} xxl={6}>
+                <div className="ExampleImageContainerMobile">
+                  <img
+                    className="ExampleImage"
+                    src={props.sixthPicture}
+                    alt=""
+                  />
+                </div>
+              </Col>
+            </Row>{" "}
+          </div>
         </div>
       )}
     </div>
