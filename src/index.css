@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
 
 body {
-  margin: 0;
+  /* margin: 0; */
   font-family: "Orbitron", Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #303030;
-  color: #ffffff;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+  background-color: #ff006a;
+  /* color: #ffffff; */
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
