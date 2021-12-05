@@ -5,7 +5,7 @@ body {
   font-family: "Orbitron", Arial, Helvetica, sans-serif;
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
-  background-color: #ff006a;
+  background-color: black;
   /* color: #ffffff; */
 }
 
@@ -13,3 +13,7 @@ body {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 } */
+#HomePage {
+  width: 100vw;
+  background-color: black;
+}

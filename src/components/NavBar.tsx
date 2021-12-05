@@ -54,10 +54,10 @@ const NavBar = () => {
               {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
               <Nav.Link href="#link">
                 {" "}
-                <img src={youtubeLogo} alt="" />
+                <img className="navbarLogo" src={youtubeLogo} alt="" />
               </Nav.Link>
               <Nav.Link href="#link">
-                <img src={twitterLogo} alt="" />
+                <img className="navbarLogo" src={twitterLogo} alt="" />
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>

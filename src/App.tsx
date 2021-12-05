@@ -1,4 +1,3 @@
-import React, { useEffect } from "react";
 import "./MintApp.css";
 import { useMemo } from "react";
 //my imports
@@ -26,8 +25,6 @@ import ninthPic from "./assets/92.png";
 import tenthPic from "./assets/97.png";
 import eleventhPic from "./assets/2016.png";
 import twelvethPic from "./assets/2017.png";
-import Aos from "aos";
-import "aos/dist/aos.css";
 
 import Home from "./Home";
 
@@ -97,11 +94,6 @@ const theme = createTheme({
 });
 
 const App = () => {
-  //for scroll animations
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   const endpoint = useMemo(() => clusterApiUrl(network), []);
 
   const wallets = useMemo(
@@ -135,9 +127,8 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
-      <div data-aos="zoom-in">
-        <About />
-      </div>
+
+      <About />
       <Examples
         firstPicture={firstPic}
         secondPicture={secondPic}

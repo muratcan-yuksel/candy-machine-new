@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #ff006a;
+  background-color: black;
   color: white;
   font-weight: 700;
 }
@@ -17,12 +17,12 @@
 .roadmapTextContainer {
   margin-bottom: 3em;
   margin-top: 3em;
-  background-color: #ce0e5e;
+  background-color: #161314;
   padding: 1em;
 }
 .roadmapTitle {
   margin-bottom: 15px;
-  color: black;
+  color: #ff006a;
   font-size: 3em;
   font-weight: 700;
 }

@@ -27,6 +27,9 @@
   font-weight: 700;
   margin: 1em;
   font-weight: 700;
-  border: 10px solid #ff006a;
+  border: 10px solid black;
   padding: 0.5em;
+}
+.navbarLogo {
+  color: white;
 }
