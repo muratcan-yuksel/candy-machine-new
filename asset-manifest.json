@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/candy-machine-new/static/css/main.2352541f.chunk.css",
-    "main.js": "/candy-machine-new/static/js/main.b18eadce.chunk.js",
-    "main.js.map": "/candy-machine-new/static/js/main.b18eadce.chunk.js.map",
+    "main.css": "/candy-machine-new/static/css/main.751b8846.chunk.css",
+    "main.js": "/candy-machine-new/static/js/main.d0d1b662.chunk.js",
+    "main.js.map": "/candy-machine-new/static/js/main.d0d1b662.chunk.js.map",
     "runtime-main.js": "/candy-machine-new/static/js/runtime-main.c0b0ba5b.js",
     "runtime-main.js.map": "/candy-machine-new/static/js/runtime-main.c0b0ba5b.js.map",
     "static/css/2.4659568d.chunk.css": "/candy-machine-new/static/css/2.4659568d.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.6908f849.chunk.js.map": "/candy-machine-new/static/js/3.6908f849.chunk.js.map",
     "index.html": "/candy-machine-new/index.html",
     "static/css/2.4659568d.chunk.css.map": "/candy-machine-new/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.2352541f.chunk.css.map": "/candy-machine-new/static/css/main.2352541f.chunk.css.map",
+    "static/css/main.751b8846.chunk.css.map": "/candy-machine-new/static/css/main.751b8846.chunk.css.map",
     "static/js/2.964e175a.chunk.js.LICENSE.txt": "/candy-machine-new/static/js/2.964e175a.chunk.js.LICENSE.txt",
     "static/media/0.75b135e3.png": "/candy-machine-new/static/media/0.75b135e3.png",
     "static/media/1.f7c9a6a1.png": "/candy-machine-new/static/media/1.f7c9a6a1.png",
@@ -27,16 +27,15 @@
     "static/media/92.9dc9afd7.png": "/candy-machine-new/static/media/92.9dc9afd7.png",
     "static/media/97.bb8cc7d2.png": "/candy-machine-new/static/media/97.bb8cc7d2.png",
     "static/media/index.css": "/candy-machine-new/static/media/Gelato.5fd4bccb.ttf",
-    "static/media/MdiTwitter.daa9e490.svg": "/candy-machine-new/static/media/MdiTwitter.daa9e490.svg",
-    "static/media/MdiYoutube.b2ee9a63.svg": "/candy-machine-new/static/media/MdiYoutube.b2ee9a63.svg",
     "static/media/banner.ef3fd868.png": "/candy-machine-new/static/media/banner.ef3fd868.png",
+    "static/media/logo.09a3c546.png": "/candy-machine-new/static/media/logo.09a3c546.png",
     "static/media/mainGif.e594bd47.gif": "/candy-machine-new/static/media/mainGif.e594bd47.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c0b0ba5b.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.964e175a.chunk.js",
-    "static/css/main.2352541f.chunk.css",
-    "static/js/main.b18eadce.chunk.js"
+    "static/css/main.751b8846.chunk.css",
+    "static/js/main.d0d1b662.chunk.js"
   ]
 }
