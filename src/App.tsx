@@ -12,6 +12,7 @@ import FillerImages from "./components/FillerImages";
 import FAQ from "./components/FAQ";
 import Creator from "./components/Creator";
 import Signup from "./components/Signup";
+import Banner from "./components/Banner";
 import "./styles/app.css";
 import firstPic from "./assets/0.png";
 import secondPic from "./assets/1.png";
@@ -151,6 +152,7 @@ const App = () => {
       {/* <FillerImages /> */}
       <FAQ />
       {/* <Creator /> */}
+      <Banner />
       <Signup />
       {/* <FillerImages /> */}
     </div>

@@ -6,7 +6,8 @@ import Alert from "@material-ui/lab/Alert";
 //my imports
 import "./styles/landing.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import MainImage from "./assets/13.png";
+// import MainImage from "./assets/13.png";
+import MainImage from "./assets/mainGif.gif";
 import { Container, Row, Col } from "react-bootstrap";
 
 import * as anchor from "@project-serum/anchor";
@@ -198,14 +199,24 @@ const Home = (props: HomeProps) => {
                   )}
 
                   {wallet && (
-                    <p>Balance: {(balance || 0).toLocaleString()} SOL</p>
+                    <p className="mintingTexts">
+                      Balance: {(balance || 0).toLocaleString()} SOL
+                    </p>
                   )}
 
-                  {wallet && <p>Total Available: {itemsAvailable}</p>}
+                  {wallet && (
+                    <p className="mintingTexts">
+                      Total Available: {itemsAvailable}
+                    </p>
+                  )}
 
-                  {wallet && <p>Redeemed: {itemsRedeemed}</p>}
+                  {wallet && (
+                    <p className="mintingTexts">Redeemed: {itemsRedeemed}</p>
+                  )}
 
-                  {wallet && <p>Remaining: {itemsRemaining}</p>}
+                  {wallet && (
+                    <p className="mintingTexts">Remaining: {itemsRemaining}</p>
+                  )}
 
                   <MintContainer>
                     {!wallet ? (

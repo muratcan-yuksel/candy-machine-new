@@ -10,7 +10,7 @@
   font-weight: 700;
 }
 #roadmapCompTitle {
-  font-size: 5em;
+  font-size: 7em;
   color: #ff006a;
   border-bottom: 2px solid white;
 }
@@ -23,10 +23,12 @@
 .roadmapTitle {
   margin-bottom: 15px;
   color: #ff006a;
-  font-size: 3em;
-  font-weight: 700;
+  font-size: 5em;
+  font-weight: 400;
 }
 .roadmapText {
+  font-size: 2em;
+  font-weight: 400;
 }
 .roadmapBtn {
   /* background-color: white !important; */

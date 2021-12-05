@@ -5,8 +5,8 @@ import "../styles/signup.css";
 const Signup = () => {
   return (
     <div id="signUpDiv">
-      <h1>Stay in touch</h1>
-      <h2>
+      <h1 id="signupTitle">Stay in touch</h1>
+      <h2 className="signupText">
         Be the first to know about the exciting things to come for our Fuzzie
         Family.
       </h2>

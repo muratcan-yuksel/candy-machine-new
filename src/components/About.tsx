@@ -8,8 +8,8 @@ const About = () => {
       <p className="aboutText">
         was created by a group of creatives with a passion for music, theater
         and animation. It is our goal to spearhead projects of various genres
-        and collab with our favorite artist who dabbling in art, short film
-        animation and gaming.
+        and collaborate with our favorite artists who are dabbling in art, short
+        film animation and gaming.
       </p>
     </div>
   );
