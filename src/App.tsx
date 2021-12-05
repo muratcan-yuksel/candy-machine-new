@@ -111,6 +111,7 @@ const App = () => {
   return (
     <div id="HomePage">
       <NavBar />
+      <Banner />
 
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
@@ -152,7 +153,6 @@ const App = () => {
       {/* <FillerImages /> */}
       <FAQ />
       {/* <Creator /> */}
-      <Banner />
       <Signup />
       {/* <FillerImages /> */}
     </div>
