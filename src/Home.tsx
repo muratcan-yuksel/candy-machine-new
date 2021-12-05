@@ -186,9 +186,13 @@ const Home = (props: HomeProps) => {
               <div id="landingWelcomeGroup">
                 {/* Minting Section (Where the MINT button is):  */}
                 {/* <div id="landingWelcomeText"> */}
-                <h2>Thousands of loveable llamas from the </h2>
-                <h1>llamadramaclub</h1>
-                <h2>are joining the NFT world January 2022.</h2>
+                <h2 className="welcomeTexts">
+                  Thousands of loveable llamas from the{" "}
+                </h2>
+                <h1 className="welcomeTexts">llamadramaclub</h1>
+                <h2 className="welcomeTexts">
+                  are joining the NFT world January 2022.
+                </h2>
                 {/* </div> */}
                 {/* minting starts here */}
                 <div className="mint-container">
@@ -221,7 +225,7 @@ const Home = (props: HomeProps) => {
                   <MintContainer>
                     {!wallet ? (
                       <ConnectButton id="connectButton">
-                        Connect Wallet
+                        <p id="connectBtnText"> Connect Wallet</p>
                       </ConnectButton>
                     ) : (
                       <MintButton

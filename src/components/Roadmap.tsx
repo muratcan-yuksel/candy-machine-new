@@ -12,7 +12,7 @@ const Roadmap = () => {
             <div data-aos="fade-down-right">
               <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                 <div className="roadmapTextContainer">
-                  <h2 className="roadmapTitle">Resale</h2>
+                  <h2 className="roadmapTitle">Presale</h2>
                   <p className="roadmapText">
                     Collectors will be able to grab llamas at a special
                     discounted price with no mint limit.
@@ -71,12 +71,11 @@ const Roadmap = () => {
             <div data-aos="zoom-in-up">
               <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                 <div className="roadmapTextContainer">
-                  <h2 className="roadmapTitle"> Tesla Giveaway</h2>
+                  <h2 className="roadmapTitle"> TESLA GIVEAWAY!!!!!</h2>
                   <div className="roadmapText">
                     <p>
                       {" "}
-                      That’s right! At 100% We will be giving away a Tesla! -
-                      Follow Twitter, FB, Insta
+                      That’s right! At 100% We will be giving away a Tesla!
                     </p>
                     <h3>Follow us on:</h3>
                     <Button className="roadmapBtn" variant="warning">

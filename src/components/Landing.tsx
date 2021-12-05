@@ -15,9 +15,13 @@ const Landing = () => {
           <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
             <div id="landingWelcomeGroup">
               {/* Minting Section (Where the MINT button is):  */}
-              <h2>Thousands of loveable llamas from the </h2>
-              <h1>llamadramaclub</h1>
-              <h2>are joining the NFT world January 2022.</h2>
+              <h2 className="welcomeTexts">
+                Thousands of loveable llamas from the{" "}
+              </h2>
+              <h1 className="welcomeTexts">llamadramaclub</h1>
+              <h2 className="welcomeTexts">
+                are joining the NFT world January 2022.
+              </h2>
               <Button id="mintButton" variant="warning">
                 MINT NOW
               </Button>{" "}
