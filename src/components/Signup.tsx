@@ -7,8 +7,8 @@ const Signup = () => {
     <div id="signUpDiv">
       <h1 id="signupTitle">Stay in touch</h1>
       <h2 className="signupText">
-        Be the first to know about the exciting things to come for our Fuzzie
-        Family.
+        Be the first to know about the exciting things to come for our
+        Llamadramaclub Family.
       </h2>
 
       <div id="signupForm">

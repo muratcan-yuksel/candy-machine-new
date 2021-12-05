@@ -8,6 +8,7 @@ import { useMediaQuery } from "react-responsive";
 //import logos
 import twitterLogo from "../assets/MdiTwitter.svg";
 import youtubeLogo from "../assets/MdiYoutube.svg";
+import logo from "../assets/logo.png";
 
 const NavBar = () => {
   //Off canbas config
@@ -30,7 +31,7 @@ const NavBar = () => {
       <Navbar id="navbarDiv" bg="dark" expand="lg" fixed="top">
         <Container fluid>
           <Navbar.Brand href="#landingPage" id="navbarTitle">
-            llamadramaclub
+            <img id="realLogo" src={logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -52,13 +53,13 @@ const NavBar = () => {
                 <p className="canvasLink">STAY IN TOUCH</p>
               </Nav.Link>
               {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
-              <Nav.Link className="navbarLogo" href="#link">
+              {/* <Nav.Link className="navbarLogo" href="#link">
                 {" "}
                 <img className="navbarLogo" src={youtubeLogo} alt="" />
               </Nav.Link>
               <Nav.Link href="#link">
                 <img className="navbarLogo" src={twitterLogo} alt="" />
-              </Nav.Link>
+              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>
