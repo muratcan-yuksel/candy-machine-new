@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/candy-machine-new/static/css/main.a3b5a876.chunk.css",
-    "main.js": "/candy-machine-new/static/js/main.d6440f54.chunk.js",
-    "main.js.map": "/candy-machine-new/static/js/main.d6440f54.chunk.js.map",
+    "main.css": "/candy-machine-new/static/css/main.7e04b0fb.chunk.css",
+    "main.js": "/candy-machine-new/static/js/main.7f2ebdc2.chunk.js",
+    "main.js.map": "/candy-machine-new/static/js/main.7f2ebdc2.chunk.js.map",
     "runtime-main.js": "/candy-machine-new/static/js/runtime-main.c825e597.js",
     "runtime-main.js.map": "/candy-machine-new/static/js/runtime-main.c825e597.js.map",
     "static/css/2.4659568d.chunk.css": "/candy-machine-new/static/css/2.4659568d.chunk.css",
@@ -12,13 +12,12 @@
     "static/js/3.1f9ee3cb.chunk.js.map": "/candy-machine-new/static/js/3.1f9ee3cb.chunk.js.map",
     "index.html": "/candy-machine-new/index.html",
     "static/css/2.4659568d.chunk.css.map": "/candy-machine-new/static/css/2.4659568d.chunk.css.map",
-    "static/css/main.a3b5a876.chunk.css.map": "/candy-machine-new/static/css/main.a3b5a876.chunk.css.map",
+    "static/css/main.7e04b0fb.chunk.css.map": "/candy-machine-new/static/css/main.7e04b0fb.chunk.css.map",
     "static/js/2.71b8a9d4.chunk.js.LICENSE.txt": "/candy-machine-new/static/js/2.71b8a9d4.chunk.js.LICENSE.txt",
     "static/media/0.75b135e3.png": "/candy-machine-new/static/media/0.75b135e3.png",
     "static/media/1.f7c9a6a1.png": "/candy-machine-new/static/media/1.f7c9a6a1.png",
     "static/media/11.7e7ee8ce.png": "/candy-machine-new/static/media/11.7e7ee8ce.png",
     "static/media/12.3bbe3dca.png": "/candy-machine-new/static/media/12.3bbe3dca.png",
-    "static/media/13.1e81ff24.png": "/candy-machine-new/static/media/13.1e81ff24.png",
     "static/media/2.989eded7.png": "/candy-machine-new/static/media/2.989eded7.png",
     "static/media/2016.4fb815f3.png": "/candy-machine-new/static/media/2016.4fb815f3.png",
     "static/media/2017.a7edb480.png": "/candy-machine-new/static/media/2017.a7edb480.png",
@@ -29,13 +28,14 @@
     "static/media/97.bb8cc7d2.png": "/candy-machine-new/static/media/97.bb8cc7d2.png",
     "static/media/index.css": "/candy-machine-new/static/media/Gelato.5fd4bccb.ttf",
     "static/media/MdiTwitter.daa9e490.svg": "/candy-machine-new/static/media/MdiTwitter.daa9e490.svg",
-    "static/media/MdiYoutube.b2ee9a63.svg": "/candy-machine-new/static/media/MdiYoutube.b2ee9a63.svg"
+    "static/media/MdiYoutube.b2ee9a63.svg": "/candy-machine-new/static/media/MdiYoutube.b2ee9a63.svg",
+    "static/media/NFT.cdee3f37.gif": "/candy-machine-new/static/media/NFT.cdee3f37.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.c825e597.js",
     "static/css/2.4659568d.chunk.css",
     "static/js/2.71b8a9d4.chunk.js",
-    "static/css/main.a3b5a876.chunk.css",
-    "static/js/main.d6440f54.chunk.js"
+    "static/css/main.7e04b0fb.chunk.css",
+    "static/js/main.7f2ebdc2.chunk.js"
   ]
 }
