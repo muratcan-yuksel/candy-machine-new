@@ -52,7 +52,7 @@ const NavBar = () => {
                 <p className="canvasLink">STAY IN TOUCH</p>
               </Nav.Link>
               {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
-              <Nav.Link href="#link">
+              <Nav.Link className="navbarLogo" href="#link">
                 {" "}
                 <img className="navbarLogo" src={youtubeLogo} alt="" />
               </Nav.Link>

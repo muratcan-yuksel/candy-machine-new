@@ -1,6 +1,6 @@
 #navbarDiv {
   /* height: 10em; */
-  /* background-color: black !important; */
+  background-color: #022446 !important;
   margin-bottom: 5em;
   width: 100%;
 }
@@ -29,8 +29,11 @@
 #navbarTitle {
   font-weight: 500;
   border: 2px solid black;
-  padding: 5px;
+  padding: 8px;
   color: white;
-  background-color: #022446;
+  background-color: black;
   margin-left: 2em;
+}
+.navbarLogo {
+  color: white !important;
 }
