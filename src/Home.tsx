@@ -281,10 +281,22 @@ const Home = (props: HomeProps) => {
               <div id="LandingFollows">
                 <div id="followButtons">
                   <span className="followButton">
-                    <button id="twitterBtn">Twitter</button>
+                    <button id="twitterBtn">
+                      <a
+                        className="linkButton"
+                        href="https://twitter.com/llamadramaclub"
+                      >
+                        Twitter
+                      </a>
+                    </button>
                   </span>
                   <span className="followButton">
-                    <button id="discordBtn">Discord</button>
+                    <button id="discordBtn">
+                      {" "}
+                      <a className="linkButton" href="discord/llamadramaclub">
+                        Discord
+                      </a>
+                    </button>
                   </span>
                 </div>
               </div>

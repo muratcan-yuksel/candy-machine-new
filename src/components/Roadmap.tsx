@@ -79,7 +79,12 @@ const Roadmap = () => {
                     </p>
                     <h3>Follow us on:</h3>
                     <Button className="roadmapBtn" variant="warning">
-                      Twitter
+                      <a
+                        className="roadmapLinkButton"
+                        href="https://twitter.com/llamadramaclub"
+                      >
+                        Twitter
+                      </a>
                     </Button>{" "}
                     <Button className="roadmapBtn" variant="warning">
                       Facebook

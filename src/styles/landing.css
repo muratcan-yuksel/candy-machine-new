@@ -123,3 +123,7 @@
   font-size: 2.5em;
   font-weight: 400;
 }
+.linkButton {
+  text-decoration: none;
+  color: white;
+}
