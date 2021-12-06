@@ -178,8 +178,11 @@ const Home = (props: HomeProps) => {
           <Row>
             <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
               <div id="landingImageContainer">
-                {/* <div id="landingImage"> </div> */}
-                <img src={MainImage} alt="" id="landingImage" />
+                <iframe
+                  title="video"
+                  id="landingImage"
+                  src="https://www.youtube.com/embed/c6PKEelUzNo"
+                />
               </div>
             </Col>
             <Col xs={12} sm={12} md={12} lg={6} xl={6} xxl={6}>
