@@ -78,14 +78,15 @@ const Roadmap = () => {
                       That’s right! At 100% We will be giving away a Tesla!
                     </p>
                     <h3>Follow us on:</h3>
-                    <Button className="roadmapBtn" variant="warning">
-                      <a
-                        className="roadmapLinkButton"
-                        href="https://twitter.com/llamadramaclub"
-                      >
+                    <a
+                      className="roadmapLinkButton"
+                      href="https://twitter.com/llamadramaclub"
+                      target="_blank"
+                    >
+                      <Button className="roadmapBtn" variant="warning">
                         Twitter
-                      </a>
-                    </Button>{" "}
+                      </Button>{" "}
+                    </a>
                     <Button className="roadmapBtn" variant="warning">
                       Facebook
                     </Button>{" "}
