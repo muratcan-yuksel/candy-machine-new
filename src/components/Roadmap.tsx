@@ -12,12 +12,12 @@ const Roadmap = () => {
             <div data-aos="fade-down-right">
               <Col xs={12} sm={12} md={12} lg={12} xl={12} xxl={12}>
                 <div className="roadmapTextContainer">
-                  <h2 className="roadmapTitle">Presale</h2>
+                  <h2 className="roadmapTitle">Whitelist</h2>
                   <p className="roadmapText">
-                    Collectors will be able to grab llamas at a special
-                    discounted price with no mint limit.
+                    250 collectors will be able to grab llamas at a special
+                    discounted price with 10 Mint limit.
                   </p>
-                  <p className="roadmapText">5,000 llamas will be released.</p>
+                  <p className="roadmapText">2,500 llamas will be released.</p>
                 </div>
               </Col>{" "}
             </div>
@@ -26,10 +26,10 @@ const Roadmap = () => {
                 <div className="roadmapTextContainer">
                   <h2 className="roadmapTitle">Launch day</h2>
                   <p className="roadmapText">
-                    If you missed out on the presale, don’t worry!
+                    If you missed out on the whitelist, don’t worry!
                   </p>
                   <p className="roadmapText">
-                    5,000 more llamas will be released on launch day.
+                    7,000 more llamas will be released on launch day.
                   </p>
                 </div>
               </Col>{" "}
@@ -53,17 +53,11 @@ const Roadmap = () => {
                 <div className="roadmapTextContainer">
                   <h2 className="roadmapTitle">Animated short films</h2>
                   <p className="roadmapText">
-                    We aren’t called the drama club for nothing. -
-                    Llamadramaclub - plans on entertaining you with animated
-                    shorts that will make you laugh, - and hopefully leave you
-                    wanting more. NFT holders will gain early access to each
-                    episode before - general public
-                  </p>
-                  <p className="roadmapText">
-                    Llamadramaclub plans on entertaining you with animated
-                    shorts that will make you laugh, and hopefully leave you
-                    wanting more. NFT holders will gain early access to each
-                    episode before general public
+                    We aren’t called the drama club for nothing. Llamadramaclub
+                    plans on entertaining you with animated shorts that will
+                    make you laugh, and hopefully leave you wanting more. NFT
+                    holders will gain early access to each episode before
+                    general public
                   </p>
                 </div>
               </Col>

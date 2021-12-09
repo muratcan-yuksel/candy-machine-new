@@ -13,7 +13,7 @@ const FAQ = () => {
               <div className="faqTextContainer">
                 <h2 className="faqTitle">How do I get an NFT?</h2>
                 <p className="faqText">
-                  Stay updated on all social media accounts. Presale and live
+                  Stay updated on all social media accounts. Whitelist and live
                   mint details will be announced with direct link to the action.
                 </p>
               </div>
@@ -32,9 +32,10 @@ const FAQ = () => {
               <div className="faqTextContainer">
                 <h2 className="faqTitle">How many NFTs can I buy?</h2>
                 <p className="faqText">
-                  There is no limit. We believe that our mission will attract
-                  the kind of investors that want to double down on us. Our goal
-                  is to show investors they made the right choice.
+                  There is no limit during live mint. We believe that our
+                  mission will attract the kind of investors that want to double
+                  down on us. Our goal is to show investors they made the right
+                  choice.
                 </p>
               </div>
             </Col>{" "}
