@@ -181,7 +181,7 @@ const Home = (props: HomeProps) => {
                 <iframe
                   title="video"
                   id="landingImage"
-                  src="https://www.youtube.com/embed/c6PKEelUzNo"
+                  src=" https://www.youtube.com/embed/l_1UmPnSEEs"
                 />
               </div>
             </Col>
@@ -283,7 +283,7 @@ const Home = (props: HomeProps) => {
             <Col>
               <div id="LandingFollows">
                 <div id="followButtons">
-                  <span className="followButton">
+                  {/* <span className="followButton">
                     <a
                       className="linkButton"
                       href="https://twitter.com/llamadramaclub"
@@ -291,7 +291,7 @@ const Home = (props: HomeProps) => {
                     >
                       <button id="twitterBtn">Twitter</button>
                     </a>
-                  </span>
+                  </span> */}
                   <span className="followButton">
                     <a
                       className="linkButton"

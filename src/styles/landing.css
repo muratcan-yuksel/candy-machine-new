@@ -66,13 +66,13 @@
   font-size: 2em;
 }
 #discordBtn {
-  width: 10em;
-  font-size: 1.5em;
-
+  width: 12em;
+  /* height: 4em; */
   font-weight: 400;
   background-color: #022446;
   color: white;
   padding: 0.5em;
+  font-size: 2em;
 }
 .mint-container {
   /* border: 2px solid white; */
