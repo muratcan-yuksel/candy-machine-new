@@ -39,7 +39,6 @@ const NavBar = () => {
               <Nav.Link href="#roadmapComponent">
                 <p className="canvasLink">ROADMAP</p>
               </Nav.Link>
-
               <Nav.Link href="#aboutPage">
                 {" "}
                 <p className="canvasLink">ABOUT</p>
@@ -47,6 +46,20 @@ const NavBar = () => {
               <Nav.Link href="#faqComponent">
                 {" "}
                 <p className="canvasLink">FAQ</p>
+              </Nav.Link>
+              <Nav.Link
+                href="https://twitter.com/llamadramaclub"
+                target="_blank"
+              >
+                {" "}
+                <p className="canvasLink">Twitter</p>
+              </Nav.Link>{" "}
+              <Nav.Link
+                href="https://www.youtube.com/channel/UCWbjIu44mFe536Mf76jGjlg"
+                target="_blank"
+              >
+                {" "}
+                <p className="canvasLink">Youtube</p>
               </Nav.Link>
               <Nav.Link href="#signUpDiv">
                 {" "}
