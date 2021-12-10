@@ -61,18 +61,6 @@ const NavBar = () => {
                 {" "}
                 <p className="canvasLink">Youtube</p>
               </Nav.Link>
-              <Nav.Link href="#signUpDiv">
-                {" "}
-                <p className="canvasLink">STAY IN TOUCH</p>
-              </Nav.Link>
-              {/* <Nav.Link href="#link">FUZZIES LOGO</Nav.Link> */}
-              {/* <Nav.Link className="navbarLogo" href="#link">
-                {" "}
-                <img className="navbarLogo" src={youtubeLogo} alt="" />
-              </Nav.Link>
-              <Nav.Link href="#link">
-                <img className="navbarLogo" src={twitterLogo} alt="" />
-              </Nav.Link> */}
             </Nav>
           </Navbar.Collapse>
         </Container>

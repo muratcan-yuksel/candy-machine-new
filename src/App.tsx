@@ -153,7 +153,7 @@ const App = () => {
       {/* <FillerImages /> */}
       <FAQ />
       {/* <Creator /> */}
-      <Signup />
+      {/* <Signup /> */}
       {/* <FillerImages /> */}
     </div>
   );
