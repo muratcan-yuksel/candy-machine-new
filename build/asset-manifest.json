@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/candy-machine-new/static/css/main.a3ac588d.chunk.css",
+    "main.js": "/candy-machine-new/static/js/main.eb1bdd1c.chunk.js",
+    "main.js.map": "/candy-machine-new/static/js/main.eb1bdd1c.chunk.js.map",
+    "runtime-main.js": "/candy-machine-new/static/js/runtime-main.c825e597.js",
+    "runtime-main.js.map": "/candy-machine-new/static/js/runtime-main.c825e597.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/candy-machine-new/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.a4f8cf02.chunk.js": "/candy-machine-new/static/js/2.a4f8cf02.chunk.js",
+    "static/js/2.a4f8cf02.chunk.js.map": "/candy-machine-new/static/js/2.a4f8cf02.chunk.js.map",
+    "static/js/3.1f9ee3cb.chunk.js": "/candy-machine-new/static/js/3.1f9ee3cb.chunk.js",
+    "static/js/3.1f9ee3cb.chunk.js.map": "/candy-machine-new/static/js/3.1f9ee3cb.chunk.js.map",
+    "index.html": "/candy-machine-new/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/candy-machine-new/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.a3ac588d.chunk.css.map": "/candy-machine-new/static/css/main.a3ac588d.chunk.css.map",
+    "static/js/2.a4f8cf02.chunk.js.LICENSE.txt": "/candy-machine-new/static/js/2.a4f8cf02.chunk.js.LICENSE.txt",
+    "static/media/0.75b135e3.png": "/candy-machine-new/static/media/0.75b135e3.png",
+    "static/media/1.f7c9a6a1.png": "/candy-machine-new/static/media/1.f7c9a6a1.png",
+    "static/media/11.7e7ee8ce.png": "/candy-machine-new/static/media/11.7e7ee8ce.png",
+    "static/media/12.3bbe3dca.png": "/candy-machine-new/static/media/12.3bbe3dca.png",
+    "static/media/2.989eded7.png": "/candy-machine-new/static/media/2.989eded7.png",
+    "static/media/2016.4fb815f3.png": "/candy-machine-new/static/media/2016.4fb815f3.png",
+    "static/media/2017.a7edb480.png": "/candy-machine-new/static/media/2017.a7edb480.png",
+    "static/media/2018.de9fd019.png": "/candy-machine-new/static/media/2018.de9fd019.png",
+    "static/media/3.ed566aa1.png": "/candy-machine-new/static/media/3.ed566aa1.png",
+    "static/media/9.dc5b246f.png": "/candy-machine-new/static/media/9.dc5b246f.png",
+    "static/media/92.9dc9afd7.png": "/candy-machine-new/static/media/92.9dc9afd7.png",
+    "static/media/97.bb8cc7d2.png": "/candy-machine-new/static/media/97.bb8cc7d2.png",
+    "static/media/index.css": "/candy-machine-new/static/media/Gelato.5fd4bccb.ttf",
+    "static/media/banner.ef3fd868.png": "/candy-machine-new/static/media/banner.ef3fd868.png",
+    "static/media/logo.09a3c546.png": "/candy-machine-new/static/media/logo.09a3c546.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c825e597.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.a4f8cf02.chunk.js",
+    "static/css/main.a3ac588d.chunk.css",
+    "static/js/main.eb1bdd1c.chunk.js"
+  ]
+}
