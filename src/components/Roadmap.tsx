@@ -81,12 +81,6 @@ const Roadmap = () => {
                         Twitter
                       </Button>{" "}
                     </a>
-                    <Button className="roadmapBtn" variant="warning">
-                      Facebook
-                    </Button>{" "}
-                    <Button className="roadmapBtn" variant="warning">
-                      Instagram
-                    </Button>{" "}
                   </div>
                 </div>
               </Col>{" "}
